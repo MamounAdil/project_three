@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/earlyaccess/droidarabickufi.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+/* Start Global Style */
+body { font-family: 'Droid Arabic Kufi', Poppins, sans-serif !important; overflow: hidden }
+
+.lead { line-height: 2 }
+
+.go-top { right: auto; left: 20px }
+/* End Global Style */
+
+/* Start Sitting Box */
+.setting-box { left: auto; right: -200px }
+
+.setting-box.open { left: auto; right: 0 }
+
+.toggle-setting { right: auto; left: -30px}
+/* End Sitting Box */
+
+/* Start NavBar  */
+.navbar-light .navbar-nav .nav-link i { font-size: 12px; padding-left: 0; padding-right: 5px }
+/* End NavBar  */
+
+
+/* Start Style About */
+.about .lists li { line-height: 3 }
+
+@media (max-width: 440.98px) { .about .lists li { font-size: 12px!important; } }
+
+@media (min-width: 441px) and (max-width: 575px) { .about .lists li { font-size: 13px!important; } }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  .about .lists li { font-size: 14px }   }
+/* End Style About */
+
+
+/* Start Testimonials */
+.testi .carousel-control-next {  right: auto; left: 55px }
+
+.testi .carousel-control-prev { left:0 }
+/* End Testimonials */
+
+/* Start Price  */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .price .list-group-item { font-size: 15px }
+}
+/* End Price  */

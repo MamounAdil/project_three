@@ -1,0 +1,92 @@
+/* Start Navbar */
+@media (max-width: 992px) {
+    /* UpperCase And Header Height */
+    .upper-bar { height: 33.5px}
+    header,
+    header .carousel-item{ height: calc(100vh - 89.5px) !important;}
+
+    /* UpperCase And Header Height */
+
+    /* Navbar */
+    .navbar-nav { background-color: #FFF }
+    .navbar-light .navbar-nav .nav-link { text-indent: 10px; transition: .3s }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        background-color: var(--sec-color); color: #FFF; text-indent: 15px }
+    /* End Navbar */
+}
+
+@media (max-width: 422px) {
+    /* Header */
+    header,
+    header .carousel-item{ height: calc(100vh - 109px) !important}
+}
+
+@media (max-width: 575px) {
+    .lead { font-size: 1rem}
+
+    /* Upper Case */
+    .upper-bar { height: auto}
+    header h2 { font-size: 23px !important;}
+
+    header,
+    header .carousel-item{ height: calc(100vh - 89.5px) !important;}
+
+    /*  about  */
+    .about .lists li { font-size: 12px }
+}
+
+
+/* Extra Small And Small Screen */
+@media (max-width: 767.98px) {
+    /* Start Header */
+    header .carousel-caption { width: 90% }
+
+    header .carousel-caption .lead { font-size: 1em }
+    /* End Header */
+
+    /*  Start Services   */
+    .service .row .myCol .lead { font-size: 14px; line-height: 2 }
+    /*  End Services   */
+
+    /*  Start Work   */
+
+    .work .row .col-sm-6 { flex-basis : 45% }
+
+    .work .row .col { flex-basis : 75%; flex-grow: 0 }
+    /*  End Work   */
+
+    /*  Start Testimonials  */
+
+    .testi .carousel-caption { width: 100%}
+
+    .testi .carousel-control-next { top: 60%; right: 5% }
+
+    .testi .carousel-control-prev { top: 60%; left: 70% }
+
+    .testi .carousel-caption h4 { font-size: 1.3em }
+
+    .testi .carousel-caption h5 { font-size: 1.1em }
+
+    .testi .carousel-caption p { font-size: 15px }
+
+    .testi .fa-2x { font-size: 1.4em }
+    /*  End Testimonials  */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* Start Services */
+    .service .col-xl-3 { flex: 0 0 23%; max-width: 23%}
+    /* End Services */
+}
